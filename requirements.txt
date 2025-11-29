@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+jinja2
+httpx
+openai>=1.0.0
+python-dotenv
+aiofiles

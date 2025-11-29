@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GenAI Content Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>GenAI Content Studio</h1>
+
+    <div class="card">
+        <label>Title</label>
+        <input id="title" type="text" placeholder="AI in Construction">
+
+        <label>Tone</label>
+        <input id="tone" type="text" placeholder="friendly">
+
+        <label>Format</label>
+        <select id="format">
+            <option value="blog">Blog</option>
+            <option value="social">Social</option>
+        </select>
+
+        <label>
+            <input type="checkbox" id="images" checked>
+            Include Images
+        </label>
+
+        <button onclick="generate()">Generate</button>
+
+        <div id="output"></div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
